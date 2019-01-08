@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This repository contains data showing the "most popular" datasets of 2018 from the Berlin Open Data portal at https://daten.berin.de.
+This repository contains data showing the "most popular" datasets of 2018 from the Berlin Open Data portal at https://daten.berlin.de.
 
 "Popularity" here only means the number of page views of the dataset details page for a particular dataset. This number does not necessarily give any indication of how often the data itself was accessed or used.
 
