@@ -6,6 +6,8 @@ This repository contains data showing the "most popular" datasets of 2018 from t
 
 "Popularity" here only means the number of page views of the dataset details page for a particular dataset. This number does not necessarily give any indication of how often the data itself was accessed or used.
 
+<img src="2018-dataset-word-art.png" alt="Word art / tag cloud consisting of the titles of the top 30 datasets on daten.berlin.de from 2018">
+
 The repository accompanies a slightly more comprehensive article looking back at 2018 at https://daten.berlin.de/interaktion/artikel/jahresrueckblick-2018.
 
 The following data files are contained:
