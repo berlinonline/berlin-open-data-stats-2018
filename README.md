@@ -52,7 +52,7 @@ The following data files are contained:
 | 18 | [Einwohnerinnen und Einwohner in den Ortsteilen Berlins am 31.12.2017](https://daten.berlin.de/datensaetze/einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-31122017) | 383 |
 | 19 | [Liste der verbannten Bücher](https://daten.berlin.de/datensaetze/liste-der-verbannten-b%C3%BCcher) | 368 |
 | 20 | [Einwohnerinnen und Einwohner mit Migrationshintergrund in Berlin in LOR-Planungsräumen am 31.12.2016](https://daten.berlin.de/datensaetze/einwohnerinnen-und-einwohner-mit-migrationshintergrund-berlin-lor-planungsr%C3%A4umen-am-8) | 344 |
-| 21 | [VBB Fahrplandaten Mitte Februar 2018 bis Mitte Dezember 2018](https://daten.berlin.de/datensaetze/vbb-fahrplandaten-mitte-februar2018-bis-mitte-dezember-2018) (nicht mehr verfügbar) | 332 |
+| 21 | VBB Fahrplandaten Mitte Februar 2018 bis Mitte Dezember 2018 (no longer accessible) | 332 |
 | 22 | [Lebensweltlich orientierte Räume (LOR) in Berlin](https://daten.berlin.de/datensaetze/lebensweltlich-orientierte-r%C3%A4ume-lor-berlin) | 329 |
 | 23 | [Digitale Topographische Karte 1: 10 000 (DTK10) - [WMS]](https://daten.berlin.de/datensaetze/digitale-topographische-karte-1-10-000-dtk10-wms) | 327 |
 | 24 | [Liste der Diplomaten-Kennzeichen in D](https://daten.berlin.de/datensaetze/liste-der-diplomaten-kennzeichen-d) | 323 |
@@ -65,16 +65,16 @@ The following data files are contained:
 
 ## How was this List Generated?
 
-The CSV and Excel file contained here were generated based on the raw data from the [Usage Statistics](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde) dataset. However, the raw data was cleaned by summing certain entries that (should) belong the the same actual dataset. This was necessary because a dataset's URL in the portal (for which we have page view stats) can change when the internal id of the dataset changes. E.g., the id of the dataset [ALKIS Berlin (Amtliches Liegenschaftskatasterinformationssystem)](https://daten.berlin.de/datensaetze/alkis-berlin-amtliches-liegenschaftskatasterinformationssystem) changed from `alkis-berlin` to `alkis-berlin-0` and finally `alkis-berlin-amtliches-liegenschaftskatasterinformationssystem` over time.
+The CSV and Excel file contained here were generated based on the raw data from the [Usage Statistics](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde) dataset. However, the raw data was cleaned by summing certain entries that (should) belong the same actual dataset. This was necessary because a dataset's URL in the portal (for which we have page view stats) can change when the internal id of the dataset changes. E.g., the id of the dataset [ALKIS Berlin (Amtliches Liegenschaftskatasterinformationssystem)](https://daten.berlin.de/datensaetze/alkis-berlin-amtliches-liegenschaftskatasterinformationssystem) changed from `alkis-berlin` to `alkis-berlin-0` and finally to `alkis-berlin-amtliches-liegenschaftskatasterinformationssystem` over time.
 
 The Ruby script [sum_rows.rb](sum_rows.rb) implements this cleaning process. The input to this script is https://daten.berlin.de/sites/default/files/data/berlin_dataportal_usage/daten_berlin_de.page_stats.datensaetze.csv.
 
 ### License
 
-All software in this project is published under the MIT License. All data in this project (in particular the `.csv` and `.xlsx` files) is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
+All software in this repository is published under the [MIT License](LICENSE). All data in this repository (in particular the `.csv` and `.xlsx` files) is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
 
 <hr/>
 
-Dataset URL: https://daten.berlin.de/datensaetze/jahresruckblick-2018<br/>
+Dataset URL: https://daten.berlin.de/datensaetze/datenportal-jahresruckblick-2018<br/>
 (based on [Zugriffsstatistik daten.berlin.de](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde), published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/))<br/>
 2018, Knud Möller, BerlinOnline Stadtportal GmbH & Co. KG
